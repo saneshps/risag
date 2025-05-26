@@ -11093,6 +11093,14 @@ p {
   width: 100%;
 }
 
+.efective__thumb img {
+  filter: grayscale(100);
+}
+
+.efective__thumb img:hover {
+  filter: grayscale(0);
+}
+
 @media (max-width: 991px) {
   .efective__thumb {
     display: none;
@@ -16331,10 +16339,11 @@ p {
 }
 
 .service__details__left ul {
- padding-left: 30px;
- margin-bottom: 20px;
+  padding-left: 30px;
+  margin-bottom: 20px;
 }
-.service__details__left ul li{
+
+.service__details__left ul li {
   list-style: disc;
   line-height: 28px;
   color: #333;
